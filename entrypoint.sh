@@ -6,7 +6,7 @@ set -e
 
 # Remove old mods/plugins
 if [ "$REMOVE_OLD_MODS" = "TRUE" ]; then
-  rm -rf ./plugins
+  rm -rf ./plugins/*
 fi
 
 # If supplied with a URL for a modpack (simple zip of jars), download it and unpack
